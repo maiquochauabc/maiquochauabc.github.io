@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="./images/top/icon.png" type="image/png"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./images/common/fontawesome/css/line-awesome.css">
+    <!-- <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"> -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>A-LIVE test - Mai Quoc Hau</title>
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="container">
+            <div class="header__background"> </div>
+            <!-- The header__background used to background under header menu when scroll -->
+            <nav class="header__nav">
+                <div class="logo"><a href="#" class="logo__link"><img src="./images/top/logo.png"
+                            alt="ALIVE VIETNAM"></a></div>
+                <div class="header__inner">
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" class="menu__link active">WHAT WE DO</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">OUR WORKS</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">WHAT WE ARE</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">GET IN TOUCH</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="language">
+                        <div class="language__active" id="language__active">EN</div>
+                        <!-- language__active use for moble to change language -->
+                        <div class="language__inner">
+                            <ul class="language__list">
+
+                                <li class="language__item">
+                                    <input type="radio" name="language" id="EN" hidden checked>
+                                    <label for="EN">EN</label>
+                                </li>
+                                <li class="language__item">
+                                    <input type="radio" name="language" id="JP" hidden>
+                                    <label for="JP">JP</label>
+                                </li>
+                                <li class="language__item">
+                                    <input type="radio" name="language" id="VN" hidden>
+                                    <label for="VN">VN</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__toogle" id="header__toogle">MENU</div>
+                    <!-- header__toogle use for moble menu -->
+                </div>
+
+            </nav>
+
+            <div class="banner">
+                <h1 class="banner__title">WE BRING EMOTION <br> TO YOUR PRODUCT</h1>
+                <a href="#" class="btn btn--white">SEE WHO WE ARE</a>
+
+            </div>
+        </div>
+    </section>
+    <section class="works">
+        <div class="container">
+            <h2 class="text__title">LATEST WORKS</h2>
+            <p class="text__desc">WE BRING THIS SPECIAL IDEA</p>
+            <div class="branding">
+                <ul class="branding__list">
+                    <li class="branding__item">Branding</li>
+                    <!-- The first child use for code -->
+                    <li class="branding__item active">Branding</li>
+                    <li class="branding__item">Creative Makerting</li>
+                    <li class="branding__item">Social Media</li>
+                    <li class="branding__item">Wed Deverlopment</li>
+                </ul>
+            </div>
+            <div class="slider">
+                <ul class="slider__list">
+                    <li class="slider__item">
+                        <div class="item__img">
+                            <a href="#" class="item__link"><img src="./images/top/works_img_1.png" alt=""></a>
+                            <div class="item__content">
+                                <p class="item__desc">KEY VISUAL</p>
+                                <h3 class="item__title">LATEST WORKS</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <div class="item__img">
+                            <a href="#" class="item__link"><img src="./images/top/works_img_2.png" alt=""></a>
+                            <div class="item__content">
+                                <p class="item__desc">KEY VISUAL</p>
+                                <h3 class="item__title">LATEST WORKS</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <div class="item__img">
+                            <a href="#" class="item__link"><img src="./images/top/works_img_3.png" alt=""></a>
+                            <div class="item__content">
+                                <p class="item__desc">KEY VISUAL</p>
+                                <h3 class="item__title">LATEST WORKS</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <div class="item__img">
+                            <a href="#" class="item__link"><img src="./images/top/works_img_4.png" alt=""></a>
+                            <div class="item__content">
+                                <p class="item__desc">KEY VISUAL</p>
+                                <h3 class="item__title">LATEST WORKS</h3>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="slider__dot">
+                    <div class="slider__dot--left"><i class="las"></i>
+                    </div>
+                    <div class="slider__dot--right" id="slider__dot--right"><i class="las"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="works__button">
+                <a href="#" class="btn btn--gray">VIEW ALL</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="news">
+        <div class="wrapper">
+            <h2 class="text__title">NEWS</h2>
+            <p class="text__desc">STAY UPDATED ON OUR DAILY ROUTINE</p>
+            <div class="news__inner flex-row">
+                <div class="flex-col">
+                    <div class="flex-row-2">
+                        <img src="./images/top/news_img_1.png" alt="">
+                        <img src="./images/top/news_img_2.png" alt="">
+                    </div>
+                    <img src="./images/top/news_img_5.png" alt="">
+                </div>
+                <div class="flex-col">
+                    <img src="./images/top/news_img_3.png" alt="">
+                    <img src="./images/top/news_img_6.png" alt="">
+                </div>
+                <div class="flex-col">
+                    <img src="./images/top/news_img_4.png" alt="">
+                    <img src="./images/top/news_img_7.png" alt="">
+                </div>
+
+            </div>
+            <div class="news__button">
+                <a href="#" class="btn btn--gray">READ ALL</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="blog">
+        <div class="container">
+            <h2 class="text__title">OUR BLOG</h2>
+            <p class="text__desc">LET'S TELL THE STORIES THAT MATTER</p>
+            <ul class="blog__list">
+                <li class="blog__item">
+                    <a href="#" class="blog__img"><img src="./images/top/blog_img_1.png" alt=""></a>
+                    <a href="#" class="blog__catelogy">Playground</a>
+                    <h3 class="blog__title">Privacy is Power</h3>
+                    <p class="blog__desc">Quisque ut augue in sapien mollis pretium a at dui. Quisque ut Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit. Accusantium, unde?</p>
+                    <a href="#" class="blog__more">READ MORE</a>
+                </li>
+                <li class="blog__item">
+                    <a href="#" class="blog__img"><img src="./images/top/blog_img_2.png" alt=""></a>
+                    <a href="#" class="blog__catelogy">Playground</a>
+                    <h3 class="blog__title">App Concept</h3>
+                    <p class="blog__desc">Quisque ut augue in sapien mollis pretium a at dui. Quisque ut augue...</p>
+                    <a href="#" class="blog__more">READ MORE</a>
+                </li>
+                <li class="blog__item">
+                    <a href="#" class="blog__img"><img src="./images/top/blog_img_3.png" alt=""></a>
+                    <a href="#" class="blog__catelogy">Tutorial</a>
+                    <h3 class="blog__title">Open Source Guides</h3>
+                    <p class="blog__desc">Quisque ut augue in sapien mollis pretium a at dui. Quisque ut augue...</p>
+                    <a href="#" class="blog__more">READ MORE</a>
+                </li>
+                <li class="blog__item">
+                    <a href="#" class="blog__img"><img src="./images/top/blog_img_4.png" alt=""></a>
+                    <a href="#" class="blog__catelogy">Tutorial</a>
+                    <h3 class="blog__title">Design Templates</h3>
+                    <p class="blog__desc">Quisque ut augue in sapien mollis pretium a at dui. Quisque ut augue...</p>
+                    <a href="#" class="blog__more">READ MORE </a>
+                </li>
+            </ul>
+            <div class="blog__button">
+                <a href="#" class="btn btn--gray">VIEW ALL</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="under">
+        <div class="under__inner">
+            <h2 class="under__title">LET'S WORK TOGETHER</h2>
+            <div class="under__button">
+                <a href="#" class="btn btn--green">VE ARE HIRING</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo"><a href="#" class="logo__link"><img src="./images/top/logo_color.png"
+                            alt=""></a></div>
+                <div class="footer__social">
+                    <div class="footer__button">
+                        <a href="#" class="btn btn--darkgray">GET IN TOUCH</a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" class="icon__link">
+                            <i class="lab la-2x la-facebook-f"></i>
+                        </a>
+                        <a href="#" class="icon__link">
+                            <i class="lab la-2x la-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__menu">
+
+                <ul class="menu__list">
+                    <li class="menu__item active"><a href="#" class="menu__link">WHAT WE DO</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">OUR WORKS</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">WHAT WE ARE</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">GET IN TOUCH</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">SITEMAP</a></li>
+                </ul>
+                <p class="footer__copyright">© COPYRIGHT 2015 · ALIVE CO., LTD </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/default.js"></script>
+</body>
+
+</html>
